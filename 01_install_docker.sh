@@ -12,7 +12,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 # Next, update the package database with the Docker packages from the newly added repo:
 sudo apt update ; sleep 2s
 # Finally, install Docker:
-sudo apt install docker-ce -y ;  sleep 2s
+sudo apt install docker-ce -y ; sleep 2s
 # Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it’s running:
 sudo systemctl status docker ; sleep 2s
 # Enable docker to start on boot
