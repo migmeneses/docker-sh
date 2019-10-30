@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #
 # == How To Install and Use Docker on CentOS 7 ==
 # First, let’s update the package database:
